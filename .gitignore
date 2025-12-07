@@ -1,0 +1,47 @@
+# Environment variables - NEVER commit secrets
+.env
+.env.local
+.env.*.local
+
+# Supabase
+.supabase/
+supabase/.temp/
+
+# Node.js (if using locally)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Deno (Supabase Edge Functions)
+.deno/
+deno.lock
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
